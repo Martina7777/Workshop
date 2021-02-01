@@ -1,8 +1,19 @@
 // alert("hello!");
 
 // exercise01
-// let number = prompt("Enter a number!");
-// var length = number.length;
+let number = prompt("Enter a number!");
+var length = number.length;
+function dashes(dash){
+    var stringArray = dash.split('');
+    var numberArray = stringArray.map(Number);
+  for(var i = 0; i < numArr.length; i++) {
+   if(numberArray[i-1]%2===0 && numberArray[i]%2===0) {
+        numberArray.push('-');
+    }
+  }
+ 
+  console.log(numberArray);
+}
 
 
 
@@ -11,14 +22,14 @@
  // 2. Create a javascript function that will find all numbers divisable by 7 and 3 in a array from 1 to 100. 
  // 30 mins  -->
 
-// var array = [];
-// for (var i = 1; i <= 100; i++) {       
-//  if(i / 3 === 0 && i / 7 === 0){
-//   array = array.push(i);
+var array = [];
+for (var i = 1; i <= 100; i++) {       
+ if(i / 3 === 0 && i / 7 === 0){
+  array = array.push(i);
     
-// }
-//  console.log(array);
-// } 
+}
+ console.log(array);
+} 
 
 // exercise03
 
